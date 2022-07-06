@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-banner {
+    display: flex;
+    background-size: 100%;
+    height: 700px;
+    background-image:
+        linear-gradient(to bottom, rgba(54, 59, 61, 0.288), rgb(8, 8, 8)),
+        url('images/donation14.jpg');
+    background-repeat: no-repeat;
+}
+
+.about-site {
+    margin: 10% 20% 20%;
+    text-align: center;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    color: white;
+    font: weight 700px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.about-color {
+    color: whitesmoke;
+}
+
+.highlight-color {
+    color: darkkhaki;
+}
+
+.donate-today {
+    margin: 7% 20% 20%;
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    gap: 20px;
+    margin: -200px 20% 20%;
+    text-align: center;
+}
+
+.box-size {
+    width: 150px;
+    height: 100px;
+    text-decoration: none;
+    background-image: linear-gradient(wheat, rgba(121, 75, 75, 0.171));
+    color: black;
+    font: weight 700px;
+    border-radius: 10px;
+}
+
+#five-hundred {
+    color: red;
+    font: weight 1500px;
+    border: 3px solid black;
+}
+
+.donation-input {
+    margin: -200px 20% 20%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+}
+}
